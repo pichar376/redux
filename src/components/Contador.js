@@ -7,7 +7,7 @@ const Contador = () => {
 
   const dispatch = useDispatch()
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <h1>Contador Redux</h1>
       <nav>
         <button onClick={() => dispatch(sumar())}>+</button>
